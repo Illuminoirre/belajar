@@ -1,0 +1,135 @@
+.navbar.navbar-expand-lg.navbar-light {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    background-color: #fdd4ca;
+    color: #a98dec;
+    padding-top: 0.5rem;
+    justify-content: space-around;
+
+    .navbar-brand {
+        margin-left: 150px;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: blueviolet;
+    }
+
+    .navbar-brand:hover {
+        color: rgb(156, 54, 252);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-item {
+    .nav-link.Home {
+        color: blueviolet;
+        font-size: 20px;
+        margin-left: 550px;
+    }
+
+    .nav-link.Home:hover {
+        color: rgb(156, 54, 252);
+    }
+
+    .nav-link.Event {
+        color: blueviolet;
+        font-size: 20px;
+        margin-left: 60px;
+    }
+
+    .nav-link.Event:hover {
+        color: rgb(156, 54, 252);
+    }
+
+    .nav-link.HAYO {
+        color: blueviolet;
+        font-size: 20px;
+        margin-left: 60px;
+    }
+
+    .nav-link.HAYO:hover {
+        color: rgb(156, 54, 252);
+    }
+}
+
+#main {
+    background-image: linear-gradient(to bottom, #fdd4ca 5%, #e3afda 15%, #bd7eef 25%, #be7fef 30%, #9983fa 50%, #6d4ded 70%, #5b1eb3 85%);
+    padding-top: 50px;
+    align-items: center;
+    position: relative;
+    height: 3000px;
+    width: 100%;
+}
+
+.header.container.text-center {
+    .quotes {
+        text-align: center;
+
+        q {
+            color: white;
+            font-size: 4rem;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: blueviolet;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: blueviolet;
+        }
+    }
+}
+
+#header {
+    .bg-header {
+        img {
+            position: relative;
+        }
+    }
+}
+
+/* End of Header */
+
+/* Definition */
+.definition-meaning {
+    color: blueviolet;
+    font-size: 1.75rem;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.definition-content {
+    color: white;
+    font-size: 1.25rem;
+    font-family: cursive;
+    margin-bottom: 1.5rem;
+}
+
+.definition-desc {
+    max-width: 1000px;
+    border: 1px solid #f28852;
+    border-radius: 1.5rem;
+    position: relative;
+    font-family: cursive;
+    color: blueviolet;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin: 50px auto;
+    padding: 2rem 6rem;
+
+    p {
+        text-align: center !important;
+    }
+}

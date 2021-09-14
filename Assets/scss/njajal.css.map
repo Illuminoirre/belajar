@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,KADC,CACD,aAAa,CAAC;EACV,KAAK,EAAE,SAAS;CACnB;;AAHL,AAKI,KALC,CAKD,cAAc,CAAC;EACX,WAAW,EAAE,4BAA4B;CAC5C;;AAGL,AAAA,eAAe,CAAC;EACZ,KAAK,EAAE,SAAS;CACnB",
+    "sources": [
+        "njajal.scss"
+    ],
+    "names": [],
+    "file": "njajal.css"
+}

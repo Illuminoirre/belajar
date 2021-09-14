@@ -1,0 +1,132 @@
+html,
+body {
+  margin: 0;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ddd;
+  line-height: 1.65;
+  padding-bottom: 1000px;
+}
+
+/* latihan 1 */
+.container-satu {
+  width: 1000px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container-satu .kolom-utama {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.container-satu .sidebar-satu {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.container-satu .sidebar-satu ul li a {
+  text-decoration: none;
+}
+
+.container-satu .sidebar-dua {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+/* Latihan 2 */
+.container-dua {
+  width: 1000px;
+  margin: 50px auto;
+  line-height: 1;
+}
+
+.container-dua .Layanan {
+  padding: 20px;
+  margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-dua .Layanan.satu {
+  background-color: #f74a4a;
+}
+
+.container-dua .Layanan.dua {
+  background-color: #41d7fd;
+}
+
+.container-dua .Layanan.tiga {
+  background-color: #37e737;
+}
+
+/* Latihan 3 */
+.container-tiga {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container-tiga .thumbnail img {
+  width: 100%;
+}
+
+/* Responsive */
+@media (min-width: 300px) {
+  .container-tiga {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-tiga .thumbnail {
+    width: 50%;
+  }
+}
+
+@media (min-width: 600px) {
+  .container-tiga {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container-tiga .thumbnail {
+    width: 25%;
+  }
+  .container-dua {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container-dua .Layanan {
+    width: 30%;
+  }
+}
+/*# sourceMappingURL=Flexbox.css.map */

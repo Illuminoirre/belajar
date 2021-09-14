@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style */
+.container {
+    background-color: black;
+    ;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .Judul {
+    color: red;
+    text-indent: 40px;
+    margin-right: 80px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+.header ul li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.header ul li a {
+    background-color: #3c3c3c;
+    margin-right: 30px;
+    padding: 10px;
+    color: lightgray;
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    color: goldenrod;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.img1 {
+    position: absolute;
+    top: 17%;
+    left: 13%;
+}
+
+.img2 {
+    position: absolute;
+    top: 17%;
+    left: 51%;
+}
+
+.img3 {
+    position: absolute;
+    top: 31%;
+    left: 13%;
+}
+
+.img4 {
+    position: absolute;
+    top: 31%;
+    left: 51%;
+}
+
+.vid1 {
+    position: absolute;
+    top: 52%;
+    left: 13%;
+}
+
+.ST03 {
+    position: absolute;
+    top: 140%;
+    left: 13%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.main {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin: 175px;
+    position: absolute;
+    top: 120%;
+    left: 0%;
+}
+
+.main p a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.main p a:hover {
+    color: orange;
+}
+
+body {}

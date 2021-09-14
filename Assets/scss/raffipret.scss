@@ -1,0 +1,132 @@
+.navbar.navbar-expand-lg.navbar-light {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    background-color: #E9FBFE;
+    padding-top: 0.5rem;
+    justify-content: space-around;
+
+    .navbar-brand {
+        margin-top: 20px;
+        margin-left: 60px;
+        font-size: 20px;
+        font-family: "Roboto";
+        color: black;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-item {
+    .nav-link.Home {
+        color: black;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 480px;
+        font-family: "Roboto";
+    }
+
+    .nav-link.Home:hover {
+        color: goldenrod;
+    }
+
+    .nav-link.Aboutme {
+        color: black;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 80px;
+        font-family: "Roboto";
+    }
+
+    .nav-link.Aboutme:hover {
+        color: goldenrod;
+    }
+
+    .nav-link.Project {
+        color: black;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 80px;
+        font-family: "Roboto";
+    }
+
+    .nav-link.Project:hover {
+        color: goldenrod;
+    }
+
+    .nav-link.instagram {
+        color: black;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 80px;
+        font-family: "Roboto";
+    }
+
+    .nav-link.linkedin {
+        color: black;
+        font-size: 20px;
+        margin-top: 15px;
+        margin-left: 20px;
+        font-family: "Roboto";
+    }
+}
+
+/* Header */
+
+#main {
+    margin-top: 0px;
+    background-color: #E9FBFE;
+    height: 575px;
+    padding-top: 157px;
+    align-items: center;
+    position: relative;
+    width: 100%;
+
+    .header {
+        margin-left: 775px;
+        box-sizing: border-box;
+        padding: 0px;
+
+        h3 {
+            margin-top: -30px;
+            color: black;
+            font-family: "Roboto";
+            font-size: 45px;
+        }
+
+        .header-nama {
+            color: #FAC722;
+        }
+
+        p {
+            width: 276px;
+            font-size: 21px;
+            line-height: 1.2;
+        }
+    }
+}
+
+.bg-header {
+    position: relative;
+
+    #img2 {
+        position: absolute;
+        height: 484.98px;
+        bottom: 50px;
+        margin-left: 220px;
+        width: 479.27px;
+    }
+}
+
+/* Responsive */
+@media only screen and (width: 480px) {
+    #main {
+        width: 100%;
+        height: 100%;
+    }
+}

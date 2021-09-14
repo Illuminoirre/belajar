@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbar-dark {
+    .navbar-brand {
+        margin-left: 50px;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        color: red;
+    }
+
+    .navbar-brand:hover {
+        color: red;
+    }
+}
+
+.nav-link.Home {
+    background-color: #6c757d;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.navbar-dark {
+    .navbar-nav {
+        .nav-link.Home:hover {
+            background-color: #495057;
+            color: goldenrod;
+        }
+    }
+}
+
+.nav-link.Movies {
+    background-color: #6c757d;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.navbar-dark {
+    .navbar-nav {
+        .nav-link.Movies:hover {
+            background-color: #495057;
+            color: goldenrod;
+        }
+    }
+}
+
+.nav-link.SerialTV {
+    background-color: #6c757d;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.navbar-dark {
+    .navbar-nav {
+        .nav-link.SerialTV:hover {
+            background-color: #495057;
+            color: goldenrod;
+        }
+    }
+}
+
+.nav-link.Genre {
+    background-color: #6c757d;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.navbar-dark {
+    .navbar-nav {
+        .nav-link.Genre:hover {
+            background-color: #495057;
+            color: goldenrod;
+        }
+    }
+}
+
+.nav-link.Negara {
+    background-color: #6c757d;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.navbar-dark {
+    .navbar-nav {
+        .nav-link.Negara:hover {
+            background-color: red;
+            color: goldenrod;
+        }
+    }
+}
+
+.nav-link.Tahun {
+    background-color: #6c757d;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.navbar-dark {
+    .navbar-nav {
+        .nav-link.Tahun:hover {
+            background-color: #495057;
+            color: goldenrod;
+        }
+    }
+}
+
+.nav-link.DMCA {
+    background-color: #6c757d;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.navbar-dark {
+    .navbar-nav {
+        .nav-link.DMCA:hover {
+            background-color: #495057;
+            color: goldenrod;
+        }
+    }
+}
+
+.nav-link.IDM {
+    background-color: #6c757d;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.navbar-dark {
+    .navbar-nav {
+        .nav-link.IDM:hover {
+            background-color: #495057;
+            color: goldenrod;
+        }
+    }
+}
+
+.container {
+    .season1 {
+        margin-bottom: 30px;
+    }
+
+    .season2 {
+        margin-bottom: 30px;
+    }
+
+    .season3 {
+        margin-bottom: 30px;
+    }
+
+    .season4 {
+        margin-bottom: 30px;
+    }
+}
+
+#grad1 {
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    height: 800px;
+}
+
+
+.bawah {
+    position: absolute;
+    background-color: #1d1f20;
+    padding-top: 80px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+
+    .TVKOTAK {
+        position: relative;
+        font-size: 70px;
+        color: red;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+        text-align: right;
+        top: -50px;
+        margin-right: 150px;
+    }
+
+    .PCWPP {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 0px;
+        color: white;
+    }
+
+    a {
+        text-decoration: none;
+        color: goldenrod;
+        margin-left: 10px;
+    }
+
+    a:hover {
+        color: rgb(240, 183, 39);
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .bawah {
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 300px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .bawah {
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 300px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .bawah {
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 300px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .bawah {
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 300px;
+    }
+}
