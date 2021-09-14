@@ -10,7 +10,7 @@
 
 /* End of Navbar */
 #main-header {
-  min-height: 70vh;
+  min-height: 60vh;
   height: 100%;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(39.53%, #cd6ee0), color-stop(99.86%, #eaacfa));
   background: linear-gradient(to bottom, #cd6ee0 39.53%, #eaacfa 99.86%);
